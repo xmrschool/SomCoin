@@ -24,7 +24,7 @@ Run these commands:
 cd ~
 sudo apt-get install build-essential git cmake libboost-all-dev libssl-dev
 git clone https://github.com/xmrschool/SomCoin.git
-cd SomCoin
+cd som
 mkdir build
 cd build
 cmake ..
@@ -72,7 +72,7 @@ Continue with:
 ```
 brew install git cmake boost
 git clone https://github.com/xmrschool/SomCoin.git
-cd SomCoin
+cd som
 cd build
 cmake ..
 make
