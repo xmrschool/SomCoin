@@ -1,5 +1,6 @@
 // Copyright (c) 2018, The TurtleCoin Developers
 // Copyright (c) 2018-2019, The Karbo Developers
+// Copyright (c) 2021, The SoM developers
 // 
 // Please see the included LICENSE file for more information.
 
@@ -44,7 +45,7 @@ namespace WalletConfig
 
 
     /* The length of a standard address for your coin */
-    const long unsigned int addressLength = 95;
+    const long unsigned int addressLength = 97;
 
 
     /* The mixin value to use with transactions */

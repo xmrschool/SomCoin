@@ -3,6 +3,7 @@
 // Copyright (c) 2014-2017, The Monero Project
 // Copyright (c) 2014-2017, The Forknote developers
 // Copyright (c) 2016-2020, The Karbo developers
+// Copyright (c) 2021, The SoM developers
 //
 // All rights reserved.
 // 
