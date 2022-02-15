@@ -92,14 +92,14 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const uint32_t UPGRADE_HEIGHT_V2                             = 1;  // Block v2, pre-LWMA
-const uint32_t UPGRADE_HEIGHT_V3                             = 1; // Block v3, LWMA1
-const uint32_t UPGRADE_HEIGHT_V3_1                           = 1; // Min fee v2, cap max mixin
-const uint32_t UPGRADE_HEIGHT_V4                             = 1; // Block v4, LWMA2, adaptive min fee, min mixin, disable slave merge mining
-const uint32_t UPGRADE_HEIGHT_V4_1                           = 1; // LWMA3
-const uint32_t UPGRADE_HEIGHT_V4_2                           = 1; // Fee per-byte for extra, ban unmixable denominations
-const uint32_t UPGRADE_HEIGHT_V4_3                           = 1; // Fixed min fee + fee per-byte for extra
-const uint32_t UPGRADE_HEIGHT_V5                             = 1; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
+const uint32_t UPGRADE_HEIGHT_V2                             = 0;  // Block v2, pre-LWMA
+const uint32_t UPGRADE_HEIGHT_V3                             = 0; // Block v3, LWMA1
+const uint32_t UPGRADE_HEIGHT_V3_1                           = 0; // Min fee v2, cap max mixin
+const uint32_t UPGRADE_HEIGHT_V4                             = 0; // Block v4, LWMA2, adaptive min fee, min mixin, disable slave merge mining
+const uint32_t UPGRADE_HEIGHT_V4_1                           = 0; // LWMA3
+const uint32_t UPGRADE_HEIGHT_V4_2                           = 0; // Fee per-byte for extra, ban unmixable denominations
+const uint32_t UPGRADE_HEIGHT_V4_3                           = 0; // Fixed min fee + fee per-byte for extra
+const uint32_t UPGRADE_HEIGHT_V5                             = 0; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
 const uint32_t UPGRADE_HEIGHT_V6                             = 1; // Block v6
 
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
@@ -122,14 +122,14 @@ const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac4
 const char     DNS_CHECKPOINTS_HOST[]                        = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
-const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
-const uint8_t  BLOCK_MAJOR_VERSION_2                         =  2;
-const uint8_t  BLOCK_MAJOR_VERSION_3                         =  3;
-const uint8_t  BLOCK_MAJOR_VERSION_4                         =  4;
+const uint8_t  BLOCK_MAJOR_VERSION_1                         =  6;
+const uint8_t  BLOCK_MAJOR_VERSION_2                         =  6;
+const uint8_t  BLOCK_MAJOR_VERSION_3                         =  6;
+const uint8_t  BLOCK_MAJOR_VERSION_4                         =  6;
 const uint8_t  BLOCK_MAJOR_VERSION_5                         =  5;
 const uint8_t  BLOCK_MAJOR_VERSION_6                         =  6;
 const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
-const uint8_t  BLOCK_MINOR_VERSION_1                         =  1;
+const uint8_t  BLOCK_MINOR_VERSION_1                         =  6;
 
 const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by default, blocks ids count in synchronizing
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  128;    //by default, blocks count in blocks downloading
