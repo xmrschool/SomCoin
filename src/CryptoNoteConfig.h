@@ -92,15 +92,15 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const uint32_t UPGRADE_HEIGHT_V2                             = 0;  // Block v2, pre-LWMA
-const uint32_t UPGRADE_HEIGHT_V3                             = 0; // Block v3, LWMA1
-const uint32_t UPGRADE_HEIGHT_V3_1                           = 0; // Min fee v2, cap max mixin
-const uint32_t UPGRADE_HEIGHT_V4                             = 0; // Block v4, LWMA2, adaptive min fee, min mixin, disable slave merge mining
-const uint32_t UPGRADE_HEIGHT_V4_1                           = 0; // LWMA3
-const uint32_t UPGRADE_HEIGHT_V4_2                           = 0; // Fee per-byte for extra, ban unmixable denominations
-const uint32_t UPGRADE_HEIGHT_V4_3                           = 0; // Fixed min fee + fee per-byte for extra
-const uint32_t UPGRADE_HEIGHT_V5                             = 0; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
-const uint32_t UPGRADE_HEIGHT_V6                             = 0; // Block v6
+const uint32_t UPGRADE_HEIGHT_V2                             = 1;  // Block v2, pre-LWMA
+const uint32_t UPGRADE_HEIGHT_V3                             = 2; // Block v3, LWMA1
+const uint32_t UPGRADE_HEIGHT_V3_1                           = 3; // Min fee v2, cap max mixin
+const uint32_t UPGRADE_HEIGHT_V4                             = 4; // Block v4, LWMA2, adaptive min fee, min mixin, disable slave merge mining
+const uint32_t UPGRADE_HEIGHT_V4_1                           = 5; // LWMA3
+const uint32_t UPGRADE_HEIGHT_V4_2                           = 6; // Fee per-byte for extra, ban unmixable denominations
+const uint32_t UPGRADE_HEIGHT_V4_3                           = 7; // Fixed min fee + fee per-byte for extra
+const uint32_t UPGRADE_HEIGHT_V5                             = 8; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
+const uint32_t UPGRADE_HEIGHT_V6                             = 9; // Block v6
 
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
