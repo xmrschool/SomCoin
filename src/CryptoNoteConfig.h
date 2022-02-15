@@ -92,15 +92,15 @@ const size_t   FUSION_TX_MAX_SIZE                            = CRYPTONOTE_BLOCK_
 const size_t   FUSION_TX_MIN_INPUT_COUNT                     = 12;
 const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 
-const uint32_t UPGRADE_HEIGHT_V2                             = 30;  // Block v2, pre-LWMA
-const uint32_t UPGRADE_HEIGHT_V3                             = 31; // Block v3, LWMA1
-const uint32_t UPGRADE_HEIGHT_V3_1                           = 32; // Min fee v2, cap max mixin
-const uint32_t UPGRADE_HEIGHT_V4                             = 33; // Block v4, LWMA2, adaptive min fee, min mixin, disable slave merge mining
-const uint32_t UPGRADE_HEIGHT_V4_1                           = 34; // LWMA3
-const uint32_t UPGRADE_HEIGHT_V4_2                           = 35; // Fee per-byte for extra, ban unmixable denominations
-const uint32_t UPGRADE_HEIGHT_V4_3                           = 36; // Fixed min fee + fee per-byte for extra
-const uint32_t UPGRADE_HEIGHT_V5                             = 36; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
-const uint32_t UPGRADE_HEIGHT_V6                             = 36; // Block v6
+const uint32_t UPGRADE_HEIGHT_V2                             = 1;  // Block v2, pre-LWMA
+const uint32_t UPGRADE_HEIGHT_V3                             = 1; // Block v3, LWMA1
+const uint32_t UPGRADE_HEIGHT_V3_1                           = 1; // Min fee v2, cap max mixin
+const uint32_t UPGRADE_HEIGHT_V4                             = 1; // Block v4, LWMA2, adaptive min fee, min mixin, disable slave merge mining
+const uint32_t UPGRADE_HEIGHT_V4_1                           = 1; // LWMA3
+const uint32_t UPGRADE_HEIGHT_V4_2                           = 1; // Fee per-byte for extra, ban unmixable denominations
+const uint32_t UPGRADE_HEIGHT_V4_3                           = 1; // Fixed min fee + fee per-byte for extra
+const uint32_t UPGRADE_HEIGHT_V5                             = 1; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
+const uint32_t UPGRADE_HEIGHT_V6                             = 1; // Block v6
 
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
@@ -118,7 +118,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "som";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac484c69cd608029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121016fbeaaed06560a73793227c2aaf109757424dde8fa546115a775c63c0a066dc2";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac484c69cd608029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210192973d2e347a3465615a322e59e3a4bd36391ceab636cd65f20a7e9dce9efcd7";
 const char     DNS_CHECKPOINTS_HOST[]                        = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
