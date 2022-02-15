@@ -122,11 +122,11 @@ const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac4
 const char     DNS_CHECKPOINTS_HOST[]                        = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
-const uint8_t  BLOCK_MAJOR_VERSION_1                         =  6;
-const uint8_t  BLOCK_MAJOR_VERSION_2                         =  6;
-const uint8_t  BLOCK_MAJOR_VERSION_3                         =  6;
-const uint8_t  BLOCK_MAJOR_VERSION_4                         =  6;
-const uint8_t  BLOCK_MAJOR_VERSION_5                         =  6;
+const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
+const uint8_t  BLOCK_MAJOR_VERSION_2                         =  2;
+const uint8_t  BLOCK_MAJOR_VERSION_3                         =  3;
+const uint8_t  BLOCK_MAJOR_VERSION_4                         =  4;
+const uint8_t  BLOCK_MAJOR_VERSION_5                         =  5;
 const uint8_t  BLOCK_MAJOR_VERSION_6                         =  6;
 const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
 const uint8_t  BLOCK_MINOR_VERSION_1                         =  6;
