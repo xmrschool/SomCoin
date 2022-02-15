@@ -54,7 +54,7 @@ To build, change to a directory where this file is located, and run these comman
 ```
 mkdir build
 cd build
-cmake -G "Visual Studio 16 Win64" ..
+cmake -G "cmake -G "Visual Studio 16 2019" ..
 ```
 
 And then do Build.
