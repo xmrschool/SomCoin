@@ -100,7 +100,7 @@ const uint32_t UPGRADE_HEIGHT_V4_1                           = 0; // LWMA3
 const uint32_t UPGRADE_HEIGHT_V4_2                           = 0; // Fee per-byte for extra, ban unmixable denominations
 const uint32_t UPGRADE_HEIGHT_V4_3                           = 0; // Fixed min fee + fee per-byte for extra
 const uint32_t UPGRADE_HEIGHT_V5                             = 0; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
-const uint32_t UPGRADE_HEIGHT_V6                             = 1; // Block v6
+const uint32_t UPGRADE_HEIGHT_V6                             = 0; // Block v6
 
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
@@ -129,7 +129,7 @@ const uint8_t  BLOCK_MAJOR_VERSION_4                         =  4;
 const uint8_t  BLOCK_MAJOR_VERSION_5                         =  5;
 const uint8_t  BLOCK_MAJOR_VERSION_6                         =  6;
 const uint8_t  BLOCK_MINOR_VERSION_0                         =  0;
-const uint8_t  BLOCK_MINOR_VERSION_1                         =  6;
+const uint8_t  BLOCK_MINOR_VERSION_1                         =  1;
 
 const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by default, blocks ids count in synchronizing
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  128;    //by default, blocks count in blocks downloading
