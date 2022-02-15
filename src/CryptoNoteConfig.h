@@ -118,7 +118,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "som";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac484c69cd608029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210192973d2e347a3465615a322e59e3a4bd36391ceab636cd65f20a7e9dce9efcd7";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac484c69cd608029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101e038a32489ea08b2bdc721eb9fe01e4a23d1bc09a30ec5983ccd6ae0d55bf523";
 const char     DNS_CHECKPOINTS_HOST[]                        = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
