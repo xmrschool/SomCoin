@@ -99,8 +99,8 @@ const uint32_t UPGRADE_HEIGHT_V4                             = 33; // Block v4, 
 const uint32_t UPGRADE_HEIGHT_V4_1                           = 34; // LWMA3
 const uint32_t UPGRADE_HEIGHT_V4_2                           = 35; // Fee per-byte for extra, ban unmixable denominations
 const uint32_t UPGRADE_HEIGHT_V4_3                           = 36; // Fixed min fee + fee per-byte for extra
-const uint32_t UPGRADE_HEIGHT_V5                             = 37; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
-const uint32_t UPGRADE_HEIGHT_V6                             = 38; // Block v6
+const uint32_t UPGRADE_HEIGHT_V5                             = 36; // Block v5, back to LWMA1+, Alt. Signed Proof-of-Work
+const uint32_t UPGRADE_HEIGHT_V6                             = 36; // Block v6
 
 const unsigned UPGRADE_VOTING_THRESHOLD                      = 90; // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         = EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
@@ -119,7 +119,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 const char     CRYPTONOTE_NAME[]                             = "som";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001fac484c69cd608029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121016fbeaaed06560a73793227c2aaf109757424dde8fa546115a775c63c0a066dc2";
-const char     DNS_CHECKPOINTS_HOST[]                        = "127.0.0.1";
+const char     DNS_CHECKPOINTS_HOST[]                        = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
